@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
 
-            {% for item in data.menu %}
+            {% for item in data.menu|sort(attribute='index') %}
                 {% if data.page == item.name %}
                     <li class="nav-item active">
                 {% else %}
