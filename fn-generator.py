@@ -2,6 +2,7 @@
 import os
 import yaml
 from jinja2 import Environment, FileSystemLoader
+from jinja2_markdown import MarkdownExtension
 from distutils.dir_util import copy_tree
 
 # Attempt to create output directory
@@ -37,6 +38,7 @@ data['pages'] = pages
 environment = Environment(
         loader = FileSystemLoader(['_source', '_includes'])
     )
+environment.add_extension(MarkdownExtension)
 
 # Process template pages
 print("Generating pages...")
