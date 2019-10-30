@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Armata);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+span.header {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 48pt;
+    text-align: center;
+
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 30pt;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+body { padding-top: 30px; }
+
+div.footer {
+    background-color: #ffcc33;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+
+    border-top: solid black 1px;
+}
+
+body {     
+    background-image:linear-gradient(#ffcc33 100px, #fff 450px);
+    background-image:-webkit-linear-gradient(#ffcc33 100px, #fff 450px);
+    background-repeat: no-repeat;
+    background-color: white
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+div.bodybreak {
+    background-color: #ffcc33;
+    display: block;
+    height: 2px;
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
