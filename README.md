@@ -1,4 +1,4 @@
-#foss-north static site generator
+# foss-north static site generator
 
 _Copyright(C) 2019 foss-north ek.för_
 
