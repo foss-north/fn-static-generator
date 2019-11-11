@@ -2,3 +2,8 @@
   short: endian
   url: https://endian.se/
   level: base
+
+- name: Business region Gothenburg
+  short: brg
+  url: https://www.businessregiongoteborg.se/
+  level: partner
