@@ -3,7 +3,7 @@
   url: https://endian.se/
   level: base
 
-- name: Business region Gothenburg
+- name: Business Region Gothenburg
   short: brg
   url: https://www.businessregiongoteborg.se/
   level: partner
@@ -12,3 +12,18 @@
   short: itrs
   url: https://www.itrsgroup.com/
   level: silver
+
+- name: B3
+  short: b3
+  url: https://b3.se
+  level: base
+
+- name: Sylog
+  short: sylog
+  url: https://www.sylog.se/
+  level: base
+  
+- name: Data Respons Solutions
+  short: datarespons
+  url: https://solutions.datarespons.com/
+  level: base

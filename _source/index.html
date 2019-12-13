@@ -10,11 +10,18 @@
 
 <div class="bodybreak">&nbsp;</div>
 
+<h1>Speakers</h1>
+
+<p>We are looking for speakers. Do you want to meet our community? Join our <a href="contribute.html#papers">Call for Papers</a>!
+
+
+<div class="bodybreak">&nbsp;</div>
+
 <h1>Sponsors</h1>
 
 <p>We would like to thank our sponsors for helping us making this possible.</p>
 
-<p>If you want to help out by sponsoring us, please visit our <a href="contribute.html#call-for-sponsors">Call for Sponsors</a> for more information.</p>
+<p>If you want to help out by sponsoring us, please visit our <a href="contribute.html#sponsors">Call for Sponsors</a> for more information.</p>
 
 
 
@@ -23,8 +30,8 @@
     <h2>Silver Sponsors</h2>
 
     <div>
-    {% set loopindex = 0 %}
     {% for sponsor in data.sponsors|selectattr('level','equalto','silver') %}
+        {% set loopindex = loop.index-1 %}
         {% set rowcount = loopindex % 3 %}
         {% if rowcount == 0 %}
             <div class="row sponsorrow">
@@ -65,12 +72,11 @@
     <h2>Base Sponsors</h2>
 
     <div>
-    {% set loopindex = 0 %}
     {% for sponsor in data.sponsors|selectattr('level','equalto','base') %}
+        {% set loopindex = loop.index-1 %}
         {% set rowcount = loopindex % 3 %}
         {% if rowcount == 0 %}
             <div class="row sponsorrow">
-            
             {% set rowindex = loopindex // 3 %}
             {% set rowsize = base_sponsor_count // 3 %}
             {% if rowindex == rowsize %}
@@ -92,7 +98,6 @@
             </div>
         {% endif %}
         
-        {% set loopindex = loopindex + 1 %}
     {% endfor %}
     {% if rowcount != 2 %}
         </div>
@@ -108,8 +113,8 @@
     <p>We would like to thank our partners for helping us making this possible.</p>
 
     <div>
-    {% set loopindex = 0 %}
     {% for sponsor in data.sponsors|selectattr('level','equalto','partner') %}
+        {% set loopindex = loop.index-1 %}
         {% set rowcount = loopindex % 4 %}
         {% if rowcount == 0 %}
             <div class="row sponsorrow">
