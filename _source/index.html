@@ -25,6 +25,46 @@
 
 
 
+{% set gold_sponsor_count = data.sponsors|selectattr('level','equalto','gold')|list|length %}
+{% if gold_sponsor_count > 0 %}
+    <h2>Gold Sponsors</h2>
+
+    <div>
+    {% for sponsor in data.sponsors|selectattr('level','equalto','gold') %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 2 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            
+            {% set rowindex = loopindex // 2 %}
+            {% set rowsize = gold_sponsor_count // 2 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = gold_sponsor_count % 2 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-3">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-6">
+                <a href="{{ sponsor.url }}"><img class="sponsor" src="images/sponsor-{{ sponsor.short }}.png" alt="{{ sponsor.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 2 %}
+            </div>
+        {% endif %}
+        
+        {% set loopindex = loopindex + 1 %}
+    {% endfor %}
+    {% if rowcount != 2 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+
+
+
 {% set silver_sponsor_count = data.sponsors|selectattr('level','equalto','silver')|list|length %}
 {% if silver_sponsor_count > 0 %}
     <h2>Silver Sponsors</h2>

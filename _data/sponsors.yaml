@@ -27,3 +27,8 @@
   short: datarespons
   url: https://solutions.datarespons.com/
   level: base
+
+- name: Luxoft
+  short: luxoft
+  url: https://www.luxoft.com/automotive/?utm_source=foss-north-se&utm_medium=sponsored-post&utm_campaign=b2b-global-automotive-foss-north&utm_term=luxoft&utm_content=link
+  level: gold
