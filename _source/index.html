@@ -234,10 +234,10 @@
     </div>
 {% endif %}
 
-{% set project_count = data.projects|list|length %}
+{% set project_count = data.projects|selectattr('front','equalto',true)|list|length %}
 {% if project_count > 0 %}
     <div>
-    {% for project in data.projects %}
+    {% for project in data.projects|selectattr('front','equalto',true) %}
         {% set loopindex = loop.index-1 %}
         {% set rowcount = loopindex % 4 %}
         {% if rowcount == 0 %}

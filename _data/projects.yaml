@@ -1,5 +1,6 @@
 - name: FreeBSD
   short: freebsd
+  front: true
   url: https://www.freebsd.org/
   links: 
     - { title: "Announcement", url: "https://wiki.freebsd.org/DevSummit/202004" }
@@ -18,8 +19,25 @@
 
 - name: KDE
   short: kde
+  front: true
   url: https://www.kde.org/
   description:
     - "T.B.D."
+  address:
+    - "T.B.D."
   lon: 11.9766646
   lat: 57.689343
+
+- name: Create your foss-north badge (Workshop)
+  short: badge
+  url: https://en.wikipedia.org/wiki/ESP8266
+  links: 
+    - { title: "Photo credits", url: "https://www.flickr.com/photos/sparkfun/37816619735" }
+  description:
+    - "Workshop for creating your own badge"
+  address:
+    - Plejd
+    - Göteborgsvägen 52
+    - 431 37 Mölndal
+  lon: 12.01129
+  lat: 57.67082
