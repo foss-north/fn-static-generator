@@ -2,6 +2,7 @@
   short: freebsd
   url: https://www.freebsd.org/
   links: 
+    - { title: "Announcement", url: "https://wiki.freebsd.org/DevSummit/202004" }
     - { title: "About", url: "https://www.freebsdfoundation.org/about/project/" }
   venue: b3
   venuename: B3 Consulting
