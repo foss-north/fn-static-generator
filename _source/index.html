@@ -6,7 +6,34 @@
 
 <h1>Announcing foss-north 2020</h1>
 
-<p>foss-north 2020 will run from March 29 - April 1 in Gothenburg, Sweden. It will consist of one community day filled with workshops, unconferences, hackathons, and fun, then two conference days, and end with a day of training sessions. We are currently looking for sponsors!</p>
+<p>foss-north is a free / open source conference covering both software and hardware from the technical perspective. Hosted in Gothenburg between Copenhagen, Oslo, and Stockholm, with an international airport, we provide a meeting place for the Nordic foss communities and will bring together great speakers with a great audience.</p>
+
+<p>The event will run from <strong>March 29 - April 1</strong> at Chalmers Conference Centre in <strong>Gothenburg, Sweden</strong>.</p>
+
+<div class="bodybreak">&nbsp;</div>
+
+<h2>What, When, and Where</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="toptitle">Community Day</div>
+        <div class="topsub">March 29</div>
+        <p>A day of workshops, dev sprints, install fests and hackathons. We invite all FOSS projects to participate and will find you a venue. Guests are welcome to visit the activities during the day.</p>
+        <p><b><a href="communityday.html">Free of charge - learn more here!</a></b></p>
+    </div>
+    <div class="col-md-4">
+        <div class="toptitle">Conference Days</div>
+        <div class="topsub">March 30-31</div>
+        <p>Two days of fully catered, dual track conference with a technical focus. We bring speakers and guests from all over the world to provide the best possible contents for our audience.</p>
+        <p>Ticket sales will open soon!</p>
+    </div>
+    <div class="col-md-4">
+        <div class="toptitle">Training Day</div>
+        <div class="topsub">April 1</div>
+        <p>One day of top quality training sessions. We bring the best teachers to our venue for an additional one day training of your choice.</p>
+        <p>Ticket sales will open soon!</p>
+    </div>
+</div>
 
 <div class="bodybreak">&nbsp;</div>
 
@@ -193,6 +220,44 @@
         
             <div class="col-md-4">
                 <a href="{{ sponsor.url }}"><img class="sponsor" src="images/sponsor-{{ sponsor.short }}.png" alt="{{ sponsor.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 3 %}
+            </div>
+        {% endif %}
+        
+        {% set loopindex = loopindex + 1 %}
+    {% endfor %}
+    {% if rowcount != 2 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+{% set project_count = data.projects|list|length %}
+{% if project_count > 0 %}
+    <div>
+    {% for project in data.projects %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 4 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            
+            {% set rowindex = loopindex // 4 %}
+            {% set rowsize = project_count // 4 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = project_count % 4 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-4">&nbsp;</div>
+                {% endif %}
+                {% if rowoffset == 2 %}
+                    <div class="col-md-2">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-4">
+                <a href="{{ project.url }}"><img class="sponsor" src="images/project-{{ project.short }}.png" alt="{{ project.name | escape }}"></a>
             </div>
         
         {% if rowcount == 3 %}

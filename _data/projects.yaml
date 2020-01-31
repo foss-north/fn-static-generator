@@ -1,0 +1,22 @@
+- name: FreeBSD
+  short: freebsd
+  url: https://www.freebsd.org/
+  links: 
+    - { title: "About", url: "https://www.freebsdfoundation.org/about/project/" }
+  venue: b3
+  venuename: B3 Consulting
+  venueurl: https://b3.se/
+  description: 
+    - "T.B.D."
+  address:
+    - B3 Consulting Göteborg
+    - Kämpegatan 6
+    - 411 04 Göteborg
+  lon: 11.97361
+  lat: 57.71509
+
+- name: KDE
+  short: kde
+  url: https://www.kde.org/
+  description:
+    - "T.B.D."

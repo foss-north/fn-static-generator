@@ -2,6 +2,10 @@
   menu: Home
   index: 10
 
+- name: communityday
+  menu: Community Day
+  index: 25
+  
 - name: contribute
   menu: Contribute
   index: 50
