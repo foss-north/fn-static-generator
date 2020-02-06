@@ -41,3 +41,14 @@
     - 431 37 Mölndal
   lon: 12.01129
   lat: 57.67082
+
+- name: Gnome
+  short: gnome
+  front: true
+  url: https://www.gnome.org/
+  description:
+    - "T.B.D."
+  address:
+    - "T.B.D."
+  lon: 11.966646
+  lat: 57.689343

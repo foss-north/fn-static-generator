@@ -37,3 +37,8 @@
   short: semcon
   url: https://semcon.com/sv/
   level: base
+
+- name: Kafit
+  short: kafit
+  url: https://kafit.se
+  level: base

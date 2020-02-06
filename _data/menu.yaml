@@ -5,6 +5,10 @@
 - name: communityday
   menu: Community Day
   index: 25
+
+- name: trainingday
+  menu: Training Day
+  index: 27
   
 - name: contribute
   menu: Contribute
