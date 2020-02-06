@@ -102,7 +102,7 @@
         
         {% set loopindex = loopindex + 1 %}
     {% endfor %}
-    {% if rowcount != 2 %}
+    {% if (gold_sponsor_count % 2) != 0 %}
         </div>
     {% endif %}
     </div>
@@ -145,7 +145,7 @@
         
         {% set loopindex = loopindex + 1 %}
     {% endfor %}
-    {% if rowcount != 2 %}
+    {% if (silver_sponsor_count % 3) != 0 %}
         </div>
     {% endif %}
     </div>
@@ -183,9 +183,8 @@
         {% if rowcount == 2 %}
             </div>
         {% endif %}
-        
     {% endfor %}
-    {% if rowcount != 2 %}
+    {% if (base_sponsor_count % 3) != 0 %}
         </div>
     {% endif %}
     </div>
@@ -228,7 +227,7 @@
         
         {% set loopindex = loopindex + 1 %}
     {% endfor %}
-    {% if rowcount != 2 %}
+    {% if (partner_count % 3) != 0 %}
         </div>
     {% endif %}
     </div>
@@ -266,10 +265,12 @@
         
         {% set loopindex = loopindex + 1 %}
     {% endfor %}
-    {% if rowcount != 2 %}
+    {% if (project_count % 3) != 0 %}
         </div>
     {% endif %}
     </div>
 {% endif %}
+
+</div>
 
 {% endblock %}
