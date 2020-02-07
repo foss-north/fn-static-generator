@@ -2,6 +2,10 @@
   menu: Home
   index: 10
 
+- name: tickets
+  menu: Tickets
+  index: 12
+
 - name: communityday
   menu: Community Day
   index: 25
