@@ -47,7 +47,7 @@
   front: true
   url: https://www.gnome.org/
   description:
-    - "T.B.D."
+    -  An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to. After the introduction we will have the newcomers workshop, which is for developers who want to participate in coding GNOME’s apps.This workshop requires a bit of object oriented programming and git skills.
   address:
     - "T.B.D."
   lon: 11.966646
