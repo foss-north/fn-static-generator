@@ -21,7 +21,9 @@
   short: kde
   front: true
   url: https://www.kde.org/
-  links: { title: "KDE Community Day event", url: "https://community.kde.org/Promo/Events/FossNorth#2020" }
+  links: 
+    - { title: "KDE Community Day event", url: "https://community.kde.org/Promo/Events/FossNorth#2020" }
+    - { title: "About KDE", url: "https://community.kde.org/Get_Involved" }
   description:
     - The KDE community and technologies it uses, from translation to coding to design. We have a handful of topics, and we'll see what gets the most interest. Afterwards we'll sit down with a drink and talk KDE things in general. To participate, you'll need a laptop or mobile device.
   address:
