@@ -55,3 +55,14 @@
     - "T.B.D."
   lon: 11.966646
   lat: 57.689343
+
+- name: Debian
+  short: debian
+  front: true
+  url: https://www.debian.org/
+  description:
+    - TBD
+  address:
+    - "T.B.D."
+  lon: 11.9726646
+  lat: 57.689343
