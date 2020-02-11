@@ -47,3 +47,8 @@
   short: embark
   url: https://embark.games/
   level: base
+
+- name: Whitesource
+  short: whitesource
+  url: https://www.whitesourcesoftware.com/
+  level: base
