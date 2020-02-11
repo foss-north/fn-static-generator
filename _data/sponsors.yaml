@@ -42,3 +42,8 @@
   short: kafit
   url: https://kafit.se
   level: base
+
+- name: Embark Studios
+  short: embark
+  url: https://embark.games/
+  level: base
