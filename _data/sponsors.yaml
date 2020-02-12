@@ -52,3 +52,8 @@
   short: whitesource
   url: https://www.whitesourcesoftware.com/
   level: base
+
+- name: Synergon
+  short: synergon
+  url: https://www.synergon.se
+  level: base
