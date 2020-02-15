@@ -238,14 +238,14 @@
     <div>
     {% for project in data.projects|selectattr('front','equalto',true) %}
         {% set loopindex = loop.index-1 %}
-        {% set rowcount = loopindex % 4 %}
+        {% set rowcount = loopindex % 3 %}
         {% if rowcount == 0 %}
             <div class="row sponsorrow">
             
-            {% set rowindex = loopindex // 4 %}
-            {% set rowsize = project_count // 4 %}
+            {% set rowindex = loopindex // 3 %}
+            {% set rowsize = project_count // 3 %}
             {% if rowindex == rowsize %}
-                {% set rowoffset = project_count % 4 %}
+                {% set rowoffset = project_count % 3 %}
                 {% if rowoffset == 1 %}
                     <div class="col-md-4">&nbsp;</div>
                 {% endif %}

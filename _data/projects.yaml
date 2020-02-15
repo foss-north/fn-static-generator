@@ -66,3 +66,19 @@
     - "T.B.D."
   lon: 11.9726646
   lat: 57.689343
+
+- name: Ansible Contributor Summit Europe
+  short: ansible
+  front: true
+  url: https://www.ansible.com/community
+  links:
+    - { title: "Announcement", url: "https://groups.google.com/forum/#!topic/ansible-devel/o6xnI9g8QqM" }
+    - { title: "Registration", url: "https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653" }
+  description:
+    - "The Ansible Contributor Summit is a full day of working sessions with the Ansible core team and community contributors. This year the European edition will be held in Gothenburg, in conjunction with foss-north 2020,as part of the Community Day. The event is free but registration is required!"
+  address:
+    - Chalmers Conference Centre
+    - Chalmersplatsen 1
+    - 412 58 Göteborg
+  lon: 11.97372
+  lat: 57.68926

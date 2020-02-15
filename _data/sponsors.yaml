@@ -57,3 +57,13 @@
   short: synergon
   url: https://www.synergon.se
   level: base
+
+- name: Makeitright
+  short: makeitright
+  url: https://makeitright.pl/en/main-page/
+  level: silver
+
+- name: Redhat Ansible
+  short: ansible
+  url: https://www.ansible.com/
+  level: gold
