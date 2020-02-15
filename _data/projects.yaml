@@ -60,12 +60,18 @@
   short: debian
   front: true
   url: https://www.debian.org/
+  links:
+    - { title: "Announcement", url: "https://wiki.debian.org/BSP/2020/03/se/Gothenburg" }
   description:
-    - TBD
+    - "We'll have a Bug Squashing Party in Gothenburg (Sweden) on Sunday March 29, organized as part of Foss-North's Community Day.  The event will be held at Viktoriahuset, courtesy of the Inbyggd Frihet project, close to the old town."
+    - "Even if you're not a Debian Developer or Maintainer yet (but are otherwise interested in fixing bugs and helping Debian) please don't hesitate to attend; there will be enough people around to sponsor uploads and/or offer advice."
+    - "Please use the wiki for registration and further information about the venue."
   address:
-    - "T.B.D."
-  lon: 11.9726646
-  lat: 57.689343
+    - Viktoriahuset
+    - Linnégatan 21
+    - Gothenburg
+  lon: 11.95177
+  lat: 57.69915
 
 - name: Ansible Contributor Summit Europe
   short: ansible
