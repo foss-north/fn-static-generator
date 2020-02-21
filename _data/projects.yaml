@@ -1,3 +1,60 @@
+- name: Ansible Contributor Summit Europe
+  short: ansible
+  front: true
+  url: https://www.ansible.com/community
+  links:
+    - { title: "Announcement", url: "https://groups.google.com/forum/#!topic/ansible-devel/o6xnI9g8QqM" }
+    - { title: "Registration", url: "https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653" }
+  description:
+    - "The Ansible Contributor Summit is a full day of working sessions with the Ansible core team and community contributors. This year the European edition will be held in Gothenburg, in conjunction with foss-north 2020,as part of the Community Day. The event is free but registration is required!"
+  address:
+    - Chalmers Conference Centre
+    - Chalmersplatsen 1
+    - 412 58 Göteborg
+  lon: 11.97372
+  lat: 57.68926
+
+- name: Create your foss-north badge (Workshop)
+  short: badge
+  url: https://en.wikipedia.org/wiki/ESP8266
+  links: 
+    - { title: "Registration", url: "https://forms.gle/7m1kAnePnb8mxRoD8" }
+  description:
+    - "Welcome to the badge hacking workshop!"
+    - "We've created an unofficial conference badge for foss-north with a ESP32 micro controller that have WiFi and Bluetooth connectivity, some battery and blinkenlights."
+    - "The workshop will consist of three parts:<br />
+* The Badge - Walk through of the hardware<br />
+* FreeRTOS - A jump start in how to use a RTOS<br />
+* Freestyle - Solder on random fun stuff on your badge and make it interact"
+    - "Requirements:<br />
+* Light programming skills<br />
+* A laptop with any OS installed"
+    - "There are 15 spots available on the workshop, and it's free - but registration is required."
+    - "The workshop runs from 12:00 to 16:00"
+  address:
+    - Plejd
+    - Göteborgsvägen 52
+    - 431 37 Mölndal
+  lon: 12.01129
+  lat: 57.67082
+
+- name: Debian
+  short: debian
+  front: true
+  url: https://www.debian.org/
+  links:
+    - { title: "Announcement", url: "https://wiki.debian.org/BSP/2020/03/se/Gothenburg" }
+  description:
+    - "We'll have a Bug Squashing Party in Gothenburg (Sweden) on Sunday March 29, organized as part of Foss-North's Community Day.  The event will be held at Viktoriahuset, courtesy of the Inbyggd Frihet project, close to the old town."
+    - "Even if you're not a Debian Developer or Maintainer yet (but are otherwise interested in fixing bugs and helping Debian) please don't hesitate to attend; there will be enough people around to sponsor uploads and/or offer advice."
+    - "Please use the wiki for registration and further information about the venue."
+  address:
+    - Viktoriahuset
+    - Linnégatan 21
+    - Gothenburg
+  lon: 11.95177
+  lat: 57.69915
+
 - name: FreeBSD
   short: freebsd
   front: true
@@ -17,6 +74,17 @@
   lon: 11.97361
   lat: 57.71509
 
+- name: Gnome
+  short: gnome
+  front: true
+  url: https://www.gnome.org/
+  description:
+    -  An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to. After the introduction we will have the newcomers workshop, which is for developers who want to participate in coding GNOME’s apps.This workshop requires a bit of object oriented programming and git skills.
+  address:
+    - "T.B.D."
+  lon: 11.966646
+  lat: 57.689343
+
 - name: KDE
   short: kde
   front: true
@@ -30,61 +98,3 @@
     - "T.B.D."
   lon: 11.9766646
   lat: 57.689343
-
-- name: Create your foss-north badge (Workshop)
-  short: badge
-  url: https://en.wikipedia.org/wiki/ESP8266
-  links: 
-    - { title: "Photo credits", url: "https://www.flickr.com/photos/sparkfun/37816619735" }
-  description:
-    - "Workshop for creating your own badge"
-  address:
-    - Plejd
-    - Göteborgsvägen 52
-    - 431 37 Mölndal
-  lon: 12.01129
-  lat: 57.67082
-
-- name: Gnome
-  short: gnome
-  front: true
-  url: https://www.gnome.org/
-  description:
-    -  An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to. After the introduction we will have the newcomers workshop, which is for developers who want to participate in coding GNOME’s apps.This workshop requires a bit of object oriented programming and git skills.
-  address:
-    - "T.B.D."
-  lon: 11.966646
-  lat: 57.689343
-
-- name: Debian
-  short: debian
-  front: true
-  url: https://www.debian.org/
-  links:
-    - { title: "Announcement", url: "https://wiki.debian.org/BSP/2020/03/se/Gothenburg" }
-  description:
-    - "We'll have a Bug Squashing Party in Gothenburg (Sweden) on Sunday March 29, organized as part of Foss-North's Community Day.  The event will be held at Viktoriahuset, courtesy of the Inbyggd Frihet project, close to the old town."
-    - "Even if you're not a Debian Developer or Maintainer yet (but are otherwise interested in fixing bugs and helping Debian) please don't hesitate to attend; there will be enough people around to sponsor uploads and/or offer advice."
-    - "Please use the wiki for registration and further information about the venue."
-  address:
-    - Viktoriahuset
-    - Linnégatan 21
-    - Gothenburg
-  lon: 11.95177
-  lat: 57.69915
-
-- name: Ansible Contributor Summit Europe
-  short: ansible
-  front: true
-  url: https://www.ansible.com/community
-  links:
-    - { title: "Announcement", url: "https://groups.google.com/forum/#!topic/ansible-devel/o6xnI9g8QqM" }
-    - { title: "Registration", url: "https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653" }
-  description:
-    - "The Ansible Contributor Summit is a full day of working sessions with the Ansible core team and community contributors. This year the European edition will be held in Gothenburg, in conjunction with foss-north 2020,as part of the Community Day. The event is free but registration is required!"
-  address:
-    - Chalmers Conference Centre
-    - Chalmersplatsen 1
-    - 412 58 Göteborg
-  lon: 11.97372
-  lat: 57.68926
