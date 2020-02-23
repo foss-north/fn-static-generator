@@ -74,6 +74,17 @@
   lon: 11.97361
   lat: 57.71509
 
+- name: Functional Programming
+  short: fp
+  front: true
+  url: https://www.meetup.com/got-lambda/
+  description:
+    - TBD
+  address:
+    - TBD
+  lon: 11.97947
+  lat: 57.68969
+  
 - name: Gnome
   short: gnome
   front: true
