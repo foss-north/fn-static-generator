@@ -77,3 +77,8 @@
   short: tmhansson
   url: https://www.hanssonit.se/nextcloud-vm/
   level: base
+
+- name: 46elks
+  short: 46elks
+  url: https://46elks.com/docs/send-sms
+  level: base
