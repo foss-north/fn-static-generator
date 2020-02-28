@@ -72,3 +72,8 @@
   short: edument
   url: https://www.edument.se/
   level: base
+
+- name: T&M Hansson IT
+  short: tmhansson
+  url: https://www.hanssonit.se/nextcloud-vm/
+  level: base
