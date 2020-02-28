@@ -67,3 +67,8 @@
   short: ansible
   url: https://www.ansible.com/
   level: gold
+
+- name: Edument
+  short: edument
+  url: https://www.edument.se/
+  level: base
