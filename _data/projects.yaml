@@ -66,7 +66,10 @@
   venuename: B3 Consulting
   venueurl: https://b3.se/
   description: 
-    - "T.B.D."
+    - "Welcome to the FreeBSD Community day!"
+    - "This day is for anyone who is intereseted in the FreeBSD operating system or any offshoots, such as pfSense or FreeNAS."
+    - "During the day, you will get to learn more about FreeBSD and the FreeBSD project, and how to get involved. There will also be an opportunity to try it out yourself."
+    - "This event is open for anyone, no prior knowledge or skills are required."
   address:
     - B3 Consulting Göteborg
     - Kämpegatan 6
