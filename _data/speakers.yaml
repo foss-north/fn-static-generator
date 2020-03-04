@@ -98,23 +98,6 @@
   bio:
     - "Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i Malmö i ett antal år växte intresset för fri mjukvara, och numera jobbar han på SUSE där han länge hackade på diverse High Availability-projekt och nu i huvudsak hackar på Ceph och Rook. Han är även en tredjedel av Kodsnack, en podcast om programmering och livet som utvecklare på svenska."
 
-- name: "Simon Painter"
-  short: "spainter"
-  slot: slot11
-  lastname: "Painter"
-  title: "Functional Programming with JavaScript"
-  abstract:
-    - "Functional Programming is becoming increasingly popular and relevant with each year that goes by. With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?"
-    - "Using just a few JavaScript libraries, such as RamdaJS, developers can implement some of the most powerful patterns and techniques from the world of functional programming?"
-    - "This talk will demonstrate how, using ES6 and a few extra libraries, we can write Functional code that is:"
-    - "<ul><li>More robust</li><li>Easier to read</li><li>Easier to maintain</li></ul>"
-    - "This talk might be of interest to anyone looking into moving to a new platform, or in improving the scalability of an existing application, or even just interested in seeing what Functional Programming is all about, but all within the comfort of a familiar language."
-    - "We might even attempt the impossible, and explain what a Monad is!"
-  bio:
-    - "I've been working as a .NET developer for over 13 years now in a variety of industries including government, retail and manufacturing. But as a coder, I've been playing with making computers do whatever my crazed imagination could devise since I was old enough to read my Dad's copy of the ZX Spectrum BASIC coders manual."
-    - "I've been speaking about Functional C# at various user groups and conferences around the UK, USA, and India, and am particularly interested in seeing just how far we can push the capabilities of C#."
-    - "When I'm not coding, or running after my two small children, I have been known to enjoy the classic series of Doctor Who, Fighting Fantasy Gamebooks, Cryptic Crosswords, and rather more coffee than is probably good for me."
-
 - name: "Francisco Blas Izquierdo Riera"
   short: "friera"
   slot: slot12
