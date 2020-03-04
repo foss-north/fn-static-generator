@@ -109,7 +109,8 @@
     - "How do we teach them to avoid the common pitfalls we witness in the industry? How do we facilitate collaboration between individuals engaged in separate parts of the system? How do we inspire them to establish a repeatable, well-defined development process? How do we convince them to build a robust and valuable system with the discipline of an engineer along with the freedom of an artist?"
     - "In this talk, we are going to illustrate how we address these issues through the adoption of best practices common in open source projects and organizations. Combined with freely available tools, we enable and inspire the students to follow industrial standards and eventually produce better engineers for the future."
   bio:
-    - "Dimitris is a software engineer at Edument in Gothenburg. During the day he is working on embedded systems of all shapes and sizes. In the evenings, he develops open source software and hardware projects that he likes to blog about. He is enthused about robotics, IoT and portable gadgets."
+    - "Dimitrios works at Edument in Gothenburg and calls himself a Software Engineer and a Maker. During the days he develops and delivers Edument's courses on C++ while hacking on embedded systems of all shapes and sizes as a consultant. Additionally, he is the course responsible for the DIT112 course at Gothenburg University, where Software Engineering BSc students learn about System Development."
+    - "The evenings are all about creating open source projects and then blogging about them. Favorite fields revolve around IoT, robotics and handheld gadgets where he loves to build the entire product stack. Hardware-wise, this includes everything from the PCB to the physical case and, software, from the embedded firmware to the cloud."
 
 - name: "Francisco Blas Izquierdo Riera"
   short: "friera"
