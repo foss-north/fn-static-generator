@@ -106,9 +106,27 @@
   links: 
     - { title: "KDE Community Day event", url: "https://community.kde.org/Promo/Events/FossNorth#2020" }
     - { title: "About KDE", url: "https://community.kde.org/Get_Involved" }
+  venue: b3
+  venuename: B3 Consulting
+  venueurl: https://b3.se/
   description:
     - The KDE community and technologies it uses, from translation to coding to design. We have a handful of topics, and we'll see what gets the most interest. Afterwards we'll sit down with a drink and talk KDE things in general. To participate, you'll need a laptop or mobile device.
   address:
-    - "T.B.D."
-  lon: 11.9766646
+    - B3 Consulting Göteborg
+    - Kämpegatan 6
+    - 411 04 Göteborg
+  lon: 11.97561
+  lat: 57.71509
+
+- name: RISC-V
+  short: riscv
+  front: true
+  links:
+    - { title: "Announcement", url: "https://www.meetup.com/Goteborg-RISC-V-Group/events/269185417/" }
+  description:
+    - "The event will start at 16.00. We are still working on the program, and hopefully there will be a number of interesting speakers! We'll start the first meeting with a RISC-V overview! The venue and agenda is still to be settled. Please watch this space for updates!"
+    - "If you have a RISC-V topic you want to present, don't hesitate to reach out! Got a board you'd like demo? Bring it!"
+  address:
+    - T.B.D.
+  lon: 11.966956
   lat: 57.689343
