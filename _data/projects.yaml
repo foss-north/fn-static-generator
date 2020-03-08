@@ -130,3 +130,22 @@
     - T.B.D.
   lon: 11.966956
   lat: 57.689343
+
+- name: Make a (your first?) pull request to open source!
+  short: ingrid
+  url: https://itingrid.se
+  description:
+    - "Welcome to the Ingrid workshop!"
+    - "Project Ingrid is an IT-calendar for all of Sweden. Find out about hackathons, upcoming conferences, meetups, call for papers and much more."
+    - "Any programming language! You can contribute in any programming language, design, frontend, backend, spelling mistakes - there's something for everyone to contribute to!<br />
+    - "We'll be doing walkthroughts of:<br />
+* GIT - if you're not yet familiar with GIT then come and learn the basics (init, add, commit, pull and push)!<br />
+* GIT proficiency - learn how to use branches, squash commits, --ammend, --author, rebasing and making pull requests!<br />
+* How to add an item to the IT-calendar<br />
+    - "Requirements:<br />
+* Open minded mindset and a friendly attitude towards others.<br />
+* A laptop"
+  address:
+    - TBD
+  lon: TBD
+  lat: 57.67082
