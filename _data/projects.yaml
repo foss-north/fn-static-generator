@@ -5,8 +5,9 @@
   links:
     - { title: "Announcement", url: "https://groups.google.com/forum/#!topic/ansible-devel/o6xnI9g8QqM" }
     - { title: "Registration", url: "https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653" }
+    - { title: "Partial Cancellation", url: "https://groups.google.com/forum/#!topic/ansible-outreach/iXUod11ahjM" }
   description:
-    - "The Ansible Contributor Summit is a full day of working sessions with the Ansible core team and community contributors. This year the European edition will be held in Gothenburg, in conjunction with foss-north 2020,as part of the Community Day. The event is free but registration is required!"
+    - "The Ansible Contributor Summit has been partially cancelled due to COVID-19. There will be hacking sessions. Please refer to the links above for more information."
   address:
     - Chalmers Conference Centre
     - Chalmersplatsen 1
