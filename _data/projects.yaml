@@ -85,7 +85,11 @@
   description:
     - TBD
   address:
-    - TBD
+    - "At Chalmers"
+    - "1. You should locate the main entrace on Rännvägen (<a href='https://maps.chalmers.se/#0766f31b-7165-42e9-8365-007240716e3f'>map</a>)"
+    - "2. Do not enter the main entrance but rather walk over Rännvägen till half way the building and you will find a small stair (5/6 steps), take them."
+    - "3. You will find a door on your left."
+    - "4. You need to call a phone number that you will find in the door, please, call us and we will go down and pick you up."
   lon: 11.97947
   lat: 57.68969
   
@@ -143,6 +147,8 @@
     - "The event will start at 16.00. We are still working on the program, and hopefully there will be a number of interesting speakers! We'll start the first meeting with a RISC-V overview! The venue and agenda is still to be settled. Please watch this space for updates!"
     - "If you have a RISC-V topic you want to present, don't hesitate to reach out! Got a board you'd like demo? Bring it!"
   address:
-    - T.B.D.
-  lon: 11.966956
-  lat: 57.689343
+    - "Intiro Development AB"
+    - "Västra Hamngatan 18"
+    - "Göteborg"
+  lon: 11.96443
+  lat: 57.70341
