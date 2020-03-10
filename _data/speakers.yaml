@@ -112,16 +112,6 @@
   bio:
     - "I am a French national lost in Norway working for British company Codethink. I maintain Freedesktop SDK."
 
-- name: "Kristoffer Grönlund"
-  short: "kgronlund"
-  slot: slot10
-  lastname: "Grönlund"
-  title: "Introducing Rook"
-  abstract:
-    - "Ceph is a free software cluster storage solution that enables near-infinite scaling on commodity hardware, and Rook is a project that brings Ceph to Kubernetes as a storage provider, as well as other open source storage solutions. In this presentation I will do my best to introduce these technologies, talk a bit about what makes them unique and perhaps provide some motivation for when and why they may be relevant to you."
-  bio:
-    - "Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i Malmö i ett antal år växte intresset för fri mjukvara, och numera jobbar han på SUSE där han länge hackade på diverse High Availability-projekt och nu i huvudsak hackar på Ceph och Rook. Han är även en tredjedel av Kodsnack, en podcast om programmering och livet som utvecklare på svenska."
-
 - name: "Dimitrios Platis"
   short: "dplatis"
   slot: slot11
@@ -239,7 +229,7 @@
     - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
     - "In this talk, we will explain why diversity is essential for reaching the desired security and anonymity properties. Both for the Tor Project organization itself, but also for our community, as well as in our daily work with creating privacy-enhancing tools such as the Tor Browser or safeguarding the network itself against attackers."
   bio:
-    - "T.B.D."
+    - "Georg joined the Tor Project in 2013, where he worked on reproducible builds and Tor Browser. From 2016 to 2019, he lead the Tor Browser team but is now focusing on network health to make sure the Tor network is diverse and robust enough to serve millions of new users while keeping attackers out."
 
 - name: "Pavel Kopylov"
   short: "pkopylov"
