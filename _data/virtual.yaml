@@ -1,0 +1,36 @@
+- name: "Andreas Nilsson"
+  short: anilsson
+  slot: slot1
+  day: mar22
+  title: "T.B.D."
+
+- name: "Chris Simmonds"
+  short: csimmonds
+  slot: slot2
+  day: mar22
+  title: "Running Android on the Raspberry Pi"
+
+- name: "Ron Munitz"
+  short: rmunitz
+  slot: slot3
+  day: mar22
+  title: "The Yocto Project 10 minute quick-start guide"
+
+- name: "Dimitris Platis"
+  short: dplatis
+  slot: slot4
+  day: mar22
+  title: "Getting started with your smart, connected, vehicle project"
+
+- name: "Kristoffer Grönlund"
+  short: kgronlund
+  slot: slot5
+  day: mar22
+  title: "Seven years in Tibet^W^Wat Home"
+
+- name: "Drew Fustini"
+  short: dfustini
+  slot: slot6
+  day: mar22
+  title: "Linux on RISC-V"
+

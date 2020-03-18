@@ -28,11 +28,21 @@ h2.left {
     margin-bottom: 30px;
 }
 
+
 h3 {
     font-family: 'Armata', serif;
     color: #333333;
     font-size: 24pt;
     text-align: left;
+    
+    margin-bottom: 30px;
+}
+
+h3.center {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+    text-align: center;
     
     margin-bottom: 30px;
 }
