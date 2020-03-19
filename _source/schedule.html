@@ -1,4 +1,4 @@
-{% extends "covid-19-page.html" %}
+{% extends "page.html" %}
 {% block bodycontents %}
 
 <h1>Conference Schedule</h1>
@@ -6,364 +6,200 @@
 <p>This is the provisional program for foss-north 2020.<br />
 All sessions include time for Q&amp;A and to move between rooms.</p>
 
-<p>[&nbsp;<a href="communityday.html">Sunday</a>&nbsp;-&nbsp;<a href="#monday">Monday</a>&nbsp;-&nbsp;<a href="#tuesday">Tuesday</a>&nbsp;-&nbsp;<a href="trainingday.html">Wednesday</a>&nbsp;]</p>
+<p>[ <a href="#march29">March 29</a> | <a href="#march30">March 30</a> | <a href="#march31">March 31</a> | <a href="#april1">April 1</a> ]</p>
 
-<a name="monday" class="offsetanchor"></a>
-<h2>Monday</h2>
+<a name="march29" class="offsetanchor"></a>
+<h2>Sunday March 29</h2>
 
 <div class="table-responsive">
     <table class="table table-bordered">
         <tr>
-            <th style="width:18%;"></th><th style="width:41%;" class="talkheading">Runan</th><th style="width:41%;" class="talkheading">Palmstedt</th>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
         </tr>
 
         <tr>
-            <td class="scheduletime">8.30&nbsp;-&nbsp;8.45</td>
-            <td colspan="2" rowspan="2" class="talkmajor table-active">Registration</td>
+            <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
+            <td >{% with slot="slot1" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">8.45&nbsp;-&nbsp;9.00</td>
+            <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
+            <td >{% with slot="slot2" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
-        <tr>
-            <td class="scheduletime">9.00&nbsp;-&nbsp;9.15</td>
-            <td rowspan="4">{% with slot="slot1" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="8" class="table-active"><div class="talkspeaker">Not scheduled</div></td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">9.15&nbsp;-&nbsp;9.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">9.30&nbsp;-&nbsp;9.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">9.45&nbsp;-&nbsp;10.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.00&nbsp;-&nbsp;10.15</td>
-            <td rowspan="4">{% with slot="slot2" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.15&nbsp;-&nbsp;10.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.30&nbsp;-&nbsp;10.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.45&nbsp;-&nbsp;11.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.00&nbsp;-&nbsp;11.15</td>
-            <td rowspan="4">{% with slot="slot3" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot4" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.15&nbsp;-&nbsp;11.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.30&nbsp;-&nbsp;11.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.45&nbsp;-&nbsp;12.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.00&nbsp;-&nbsp;12.15</td>
-            <td colspan="2" rowspan="6" class="talkmajor table-active">Lunch</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.15&nbsp;-&nbsp;12.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.30&nbsp;-&nbsp;12.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.45&nbsp;-&nbsp;13.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.00&nbsp;-&nbsp;13.15</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.15&nbsp;-&nbsp;13.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.30&nbsp;-&nbsp;13.45</td>
-            <td rowspan="4">{% with slot="slot5" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot6" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.45&nbsp;-&nbsp;14.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.00&nbsp;-&nbsp;14.15</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.15&nbsp;-&nbsp;14.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.30&nbsp;-&nbsp;14.45</td>
-            <td rowspan="4">{% with slot="slot7" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot8" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.45&nbsp;-&nbsp;15.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.00&nbsp;-&nbsp;15.15</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.15&nbsp;-&nbsp;15.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.30&nbsp;-&nbsp;15.45</td>
-            <td colspan="2" rowspan="2" class="talkmajor table-active">Coffee break</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.45&nbsp;-&nbsp;16.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.00&nbsp;-&nbsp;16.15</td>
-            <td rowspan="4">{% with slot="slot9" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.15&nbsp;-&nbsp;16.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.30&nbsp;-&nbsp;16.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.45&nbsp;-&nbsp;17.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">17.00&nbsp;-&nbsp;17.15</td>
-            <td rowspan="4">{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-
-        <tr>
-            <td class="scheduletime">17.15&nbsp;-&nbsp;17.30</td>
-        </tr>
-
-        <tr>
-            <td class="scheduletime">17.30&nbsp;-&nbsp;17.45</td>
-        </tr>
-
-        <tr>
-            <td class="scheduletime">17.45&nbsp;-&nbsp;18.00</td>
+                <tr>
+            <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
+            <td >{% with slot="slot3" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
     </table>
 </div>
 
-<a name="tuesday" class="offsetanchor"></a>
-<h2>Tuesday</h2>
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
+            <td >{% with slot="slot4" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">15.00&nbsp;-&nbsp;16.00</td>
+            <td >{% with slot="slot5" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
+            <td >{% with slot="slot6" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<a name="march30" class="offsetanchor"></a>
+<h2>Monday March 30</h2>
 
 <div class="table-responsive">
     <table class="table table-bordered">
         <tr>
-            <th style="width:18%;"></th><th style="width:41%;" class="talkheading">Runan</th><th style="width:41%;" class="talkheading">Palmstedt</th>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
         </tr>
 
         <tr>
-            <td class="scheduletime">8.30&nbsp;-&nbsp;8.45</td>
-            <td colspan="2" rowspan="2" class="talkmajor table-active">Registration</td>
+            <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
+            <td >{% with slot="slot7" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">8.45&nbsp;-&nbsp;9.00</td>
+            <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
+            <td >{% with slot="slot8" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
+            <td >{% with slot="slot9" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
         </tr>
 
         <tr>
-            <td class="scheduletime">9.00&nbsp;-&nbsp;9.15</td>
-            <td rowspan="4">{% with slot="slot13" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="8" class="table-active"><div class="talkspeaker">Not scheduled</div></td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">9.15&nbsp;-&nbsp;9.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">9.30&nbsp;-&nbsp;9.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">9.45&nbsp;-&nbsp;10.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.00&nbsp;-&nbsp;10.15</td>
-            <td rowspan="4">{% with slot="slot14" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.15&nbsp;-&nbsp;10.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.30&nbsp;-&nbsp;10.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">10.45&nbsp;-&nbsp;11.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.00&nbsp;-&nbsp;11.15</td>
-            <td rowspan="4">{% with slot="slot15" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot16" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.15&nbsp;-&nbsp;11.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.30&nbsp;-&nbsp;11.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">11.45&nbsp;-&nbsp;12.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.00&nbsp;-&nbsp;12.15</td>
-            <td colspan="2" rowspan="6" class="talkmajor table-active">Lunch</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.15&nbsp;-&nbsp;12.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.30&nbsp;-&nbsp;12.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">12.45&nbsp;-&nbsp;13.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.00&nbsp;-&nbsp;13.15</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.15&nbsp;-&nbsp;13.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.30&nbsp;-&nbsp;13.45</td>
-            <td rowspan="4">{% with slot="slot17" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot18" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">13.45&nbsp;-&nbsp;14.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.00&nbsp;-&nbsp;14.15</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.15&nbsp;-&nbsp;14.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.30&nbsp;-&nbsp;14.45</td>
-            <td rowspan="4">{% with slot="slot19" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="2">{% with slot="slot20a" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">14.45&nbsp;-&nbsp;15.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.00&nbsp;-&nbsp;15.15</td>
-            <td rowspan="2">{% with slot="slot20b" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.15&nbsp;-&nbsp;15.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.30&nbsp;-&nbsp;15.45</td>
-            <td colspan="2" rowspan="2" class="talkmajor table-active">Coffee break</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">15.45&nbsp;-&nbsp;16.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.00&nbsp;-&nbsp;16.15</td>
-            <td rowspan="4">{% with slot="slot21" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4">{% with slot="slot22" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.15&nbsp;-&nbsp;16.30</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.30&nbsp;-&nbsp;16.45</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">16.45&nbsp;-&nbsp;17.00</td>
-        </tr>
-        
-        <tr>
-            <td class="scheduletime">17.00&nbsp;-&nbsp;17.15</td>
-            <td rowspan="3">{% with slot="slot23" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td rowspan="4" class="table-active"><div class="talkspeaker">Not scheduled</div></td>
+            <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
+            <td >{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">17.15&nbsp;-&nbsp;17.30</td>
+            <td class="scheduletime">15.00&nbsp;-&nbsp;16.00</td>
+            <td >{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
+            <td >{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<a name="march31" class="offsetanchor"></a>
+<h2>Tuesday March 31</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
         </tr>
 
         <tr>
-            <td class="scheduletime">17.30&nbsp;-&nbsp;17.45</td>
+            <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
+            <td >{% with slot="slot13" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">17.45&nbsp;-&nbsp;18.00</td>
-            <td rowspan="1"><div class="talktitle">Closing Words</div></td>
+            <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
+            <td >{% with slot="slot14" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
+            <td >{% with slot="slot15" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
+            <td >{% with slot="slot16" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">15.00&nbsp;-&nbsp;16.00</td>
+            <td >{% with slot="slot17" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
+            <td >{% with slot="slot18" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<a name="april1" class="offsetanchor"></a>
+<h2>Wednesday April 1</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
+            <td >{% with slot="slot19" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
+            <td >{% with slot="slot1" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
+            <td >{% with slot="slot20" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:80%;" class="talkheading">Session</th>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
+            <td >{% with slot="slot21" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">15.00&nbsp;-&nbsp;16.00</td>
+            <td >{% with slot="slot22" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+                <tr>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
+            <td >{% with slot="slot23" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
     </table>
 </div>

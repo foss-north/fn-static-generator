@@ -1,9 +1,9 @@
-{% extends "covid-19-page.html" %}
+{% extends "page.html" %}
 {% block bodycontents %}
 
 <h1>Speakers and Talks</h1>
 
-{% set sorted_speakers = data.speakers | sort(attribute='lastname') %}
+{% set sorted_speakers = data.speakers | rejectattr('day','equalto','none') | sort(attribute='lastname') %}
 {% for speaker in sorted_speakers %}
     <a name="{{ speaker.short }}" class="offsetanchor"></a>
     <div class="row speakerrow">

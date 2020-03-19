@@ -1,6 +1,7 @@
 - name: "Frank Karlitschek"
   short: "fkarlitschek"
-  slot: slot1
+  slot: slotX
+  day: none
   lastname: "Karlitschek"
   title: "T.B.D."
   abstract:
@@ -8,21 +9,10 @@
   bio:
     - "Founder of NextCloud"
     
-- name: "Anne-Marie Eklund-Löwinder"
-  short: "ameklundlowinder"
-  slot: slot2
-  lastname: "Eklund"
-  title: "Signing the Internet root zone"
-  abstract:
-    - "During her presentation Anne-Marie will tell the story of the recurring ceremonies with DNSSEC key generation for the internet root zone where she attend as a Crypto Officer. What, why, when and how. It's about routines, design and arcitechture, key management and layer and layer of security. Mostly physical."
-  bio:
-    - "Anne-Marie Eklund Löwinder is the Chief Information Officer at The Swedish Internet Foundation and an information and IT security expert. She can answer most questions about strategic information and IT security for both businesses and ordinary users, such as current management systems for information security and ISO 27001, as well as questions about encryption, passwords, security on smart gadgets, cloud services, and networks. She is a specialist in managing DNSSEC and other security efforts which surmises to develop and advance the security of the Internet infrastructure."
-    - "Anne-Marie is one of the few people in the world who has been assigned as Trusted Community Representative in the role as a Crypto Officer where she participates in the DNSSEC key generation for the internet root zone as Crypto Officer, having been appointed by the international organization ICANN (the internet Corporation for Assigned Names and Numbers). She is also a member of The Registry Services Technical Evaluation Panel (RSTEP), a technical team under the GNSO (Generic Name Supporting Organization). RSTEP's primary responsibility is to, if necessary, participate in the evaluation of applications for new generic top-level domains (gTLDs)."
-    - "In 2013 Anne-Marie was the first Swede to become inducted into the Internet Hall of Fame where she ends up in the company of, among others, Internet pioneers like Vint Cerf and Steve Crocker."
-    
 - name: "Gabriel Ku Wei Bin"
   short: "gkuweibin"
-  slot: slot3
+  slot: slotX
+  day: none
   lastname: "Ku"
   title: "REUSE: Making Free Software Licensing Easier For All"
   abstract:
@@ -34,7 +24,8 @@
     
 - name: "Chris Simmonds"
   short: "csimmonds"
-  slot: slot4
+  slot: slotX
+  day: none
   lastname: "Simmonds"
   title: "Debian or Yocto Project? Which is the best for your Embedded Linux project?"
   abstract:
@@ -46,7 +37,8 @@
     
 - name: "Ron Munitz"
   short: "rmunitz"
-  slot: slot5
+  slot: slotX
+  day: none
   lastname: "Munitz"
   title: "Understanding, Building and Researching Minimal (and not so minimal) Linux Systems"
   abstract:
@@ -57,7 +49,8 @@
     
 - name: "Viktor Petersson"
   short: "vpetersson"
-  slot: slot6
+  slot: slotX
+  day: none
   lastname: "Petersson"
   title: "The history of how Screenly OSE became the most popular digital signage project on GitHub"
   abstract:
@@ -69,7 +62,8 @@
     
 - name: "Adriaan de Groot"
   short: "adegroot"
-  slot: slot7
+  slot: slotX
+  day: none
   lastname: "Groot"
   title: "KDE Free Qt Foundation"
   abstract:
@@ -80,7 +74,8 @@
 
 - name: "Gustav Grusell"
   short: "ggrusell"
-  slot: slot8
+  slot: slotX
+  day: none
   lastname: "Grusell"
   copresenters:
     - { name: "Olof Lindman", short: "olindman" }
@@ -93,7 +88,8 @@
 
 - name: "Olof Lindman"
   short: "olindman"
-  coslot: slot8
+  coslot: slotX
+  day: none
   lastname: "Lindman"
   title: "FOSS made us do it - How switching to open source tools enabled video innovation"
   abstract:
@@ -104,7 +100,8 @@
     
 - name: "Valentin David"
   short: "vdavid"
-  slot: slot9
+  slot: slotX
+  day: none
   lastname: "David"
   title: "Building Open Container Initiative images based on Freedesktop SDK"
   abstract:
@@ -114,7 +111,8 @@
 
 - name: "Dimitrios Platis"
   short: "dplatis"
-  slot: slot11
+  slot: slot18
+  day: mar31
   lastname: "Platis"
   title: "Using open source paradigms to teach system development"
   abstract:
@@ -128,7 +126,8 @@
 
 - name: "Francisco Blas Izquierdo Riera"
   short: "friera"
-  slot: slot12
+  slot: slotX
+  day: none
   lastname: "Riera"
   title: "Lessons learnt integrating hardware full disk encription"
   abstract:
@@ -138,7 +137,8 @@
 
 - name: "Daniel Stenberg"
   short: "dstenberg"
-  slot: slot13
+  slot: slot10
+  day: mar30
   lastname: "Stenberg"
   title: "curl better"
   abstract:
@@ -148,7 +148,8 @@
 
 - name: "Patrik Fältström"
   short: "pfaltstrom"
-  slot: slot14
+  slot: slot12
+  day: mar30
   lastname: "Fältström"
   title: "Keeping Time"
   abstract:
@@ -159,7 +160,8 @@
 
 - name: "Johan Linåker"
   short: "jlinaker"
-  slot: slot15
+  slot: slotX
+  day: none
   lastname: "Linåker"
   title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
   abstract:
@@ -172,7 +174,8 @@
     - { name: "Jonas Södergren", short: "jsodergren" }
 - name: "Jonas Södergren"
   short: "jsodergren"
-  coslot: slot15
+  coslot: slotX
+  day: none
   lastname: "Södergren"
   title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
   abstract:
@@ -184,7 +187,8 @@
       
 - name: "Elisabet Lobo-Vesga"
   short: "elobovesga"
-  slot: slot16
+  slot: slotX
+  day: none
   lastname: "Logo-Vesga"
   title: "Privacy-preserving statistical analyses"
   abstract:
@@ -196,44 +200,10 @@
   bio:
     - "I am a PhD student in the Information Security division at Chalmers. I'm interested in exploring the usage of embedded domain-specific languages (EDSLs) in Haskell to provide privacy or security guarantees for different applications. For the past year, I've been working on creating a framework for privacy-preserving queries---under differential privacy---that allows programmers to reason about the accuracy of the queries statically."
 
-- name: "Zeeshan Ali"
-  short: "zali"
-  slot: slot17
-  lastname: "Ali"
-  title: "Writing safe & secure code, easily"
-  abstract:
-    - 'This talks builds up on the great talk from the famous Daniel Stenberg titled "Writing safe and secure code" last year at foss-north. In their talk, they shared their story and wisdom on what steps to take and which tools to use to ensure that the code you write in unsafe languages, like C and C++ can be made to be very safe and secure. While all the information presented in that talk was completely accurate and all the advice given, was indeed very sound, I felt it fell short of recognising some of the modern technologies that can make the process much easier and a reliable.'
-    - 'One such major technology, is Rust programming language. Rust was designed from ground up to be both efficient and safe. Its focus on efficiency, means that it gives you a similar performance (and even better in certain cases) to C and C++, while simultaneous, its focus also on safety means that most common types of memory issues of C and C++ just can not happen with Rust code.'
-    - 'In this talk, I will present how exactly Rust allows you to do that through code samples. I will also demonstrate how Rust helps to catch runtime issues, that the compiler can not possibly catch, early on by enabling you to write tests more easily.'
-  bio:
-    - "Free Software developer, Ecomodernist, into flying & Rust, and love cats. The Hat is Red."    
-
-- name: "Alexander"
-  short: "alexander"
-  slot: slot22
-  lastname: "Alexander"
-  title: "Anonymity loves Diversity: The Case of Tor"
-  abstract:
-    - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
-    - "In this talk, we will explain why diversity is essential for reaching the desired security and anonymity properties. Both for the Tor Project organization itself, but also for our community, as well as in our daily work with creating privacy-enhancing tools such as the Tor Browser or safeguarding the network itself against attackers."
-  bio:
-    - "Alex is a Free software minded hacker from Copenhagen who enjoys working on privacy-enhancing technologies, cryptography, security, and distributed systems. I'm a Core Developer with The Tor Project, where I work on Core Tor."
-  copresenters:
-    - { name: "Georg", short: "georg" }
-- name: "Georg"
-  short: "georg"
-  coslot: slot22
-  lastname: "Georg"
-  title: "Anonymity loves Diversity: The Case of Tor"
-  abstract:
-    - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
-    - "In this talk, we will explain why diversity is essential for reaching the desired security and anonymity properties. Both for the Tor Project organization itself, but also for our community, as well as in our daily work with creating privacy-enhancing tools such as the Tor Browser or safeguarding the network itself against attackers."
-  bio:
-    - "Georg joined the Tor Project in 2013, where he worked on reproducible builds and Tor Browser. From 2016 to 2019, he lead the Tor Browser team but is now focusing on network health to make sure the Tor network is diverse and robust enough to serve millions of new users while keeping attackers out."
-
 - name: "Pavel Kopylov"
   short: "pkopylov"
-  slot: slot20a
+  slot: slotX
+  day: none
   lastname: "Kopylov"
   title: "Hacking the legal code of an open source license"
   abstract:
@@ -243,7 +213,8 @@
 
 - name: "Kamil Kaluzny"
   short: "kkaluzny"
-  slot: slot20b
+  slot: slotX
+  day: none
   lastname: "Kaluzny"
   title: "Robotic Process Automation based on OpenSource"
   abstract:
@@ -253,7 +224,8 @@
 
 - name: "Jakob Bornecrantz"
   short: "jbornecrantz"
-  slot: slot19
+  slot: slot5
+  day: mar29
   lastname: "Bornecrantz"
   title: "FOSS Virtual & Augmented Reality"
   abstract:
@@ -264,19 +236,11 @@
     
 - name: "Drew Fustini"
   short: "dfustini"
-  slot: slot23
+  slot: slotX
+  day: none
   lastname: "Fustini"
   title: "T.B.D."
   abstract:
     - "T.B.D."
   bio:
     - "T.B.D."
-
-    
-- name: "Lightning Talks"
-  short: "lightning"
-  slot: slot18
-  lastname: "Zzzzzzzz"
-  title: "Register at the registration table for your 10 minutes of fame!"
-  abstract:
-    - "Speakers are in the video, slides above."
