@@ -37,8 +37,8 @@
     
 - name: "Ron Munitz"
   short: "rmunitz"
-  slot: slotX
-  day: none
+  slot: slot6
+  day: mar29
   lastname: "Munitz"
   title: "Understanding, Building and Researching Minimal (and not so minimal) Linux Systems"
   abstract:
