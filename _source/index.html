@@ -63,7 +63,7 @@
         </div>
     {% endif %}
 {% endfor %}
-{% if rowcount != 2 %}
+{% if ((sorted_speakers|length) % 3) != 0  %}
     </div>
 {% endif %}
 
@@ -89,7 +89,7 @@
         </div>
     {% endif %}
 {% endfor %}
-{% if rowcount != 2 %}
+{% if ((sorted_speakers|length) % 3) != 0  %}
     </div>
 {% endif %}
 
@@ -115,7 +115,7 @@
         </div>
     {% endif %}
 {% endfor %}
-{% if rowcount != 2 %}
+{% if ((sorted_speakers|length) % 3) != 0  %}
     </div>
 {% endif %}
 
@@ -141,7 +141,7 @@
         </div>
     {% endif %}
 {% endfor %}
-{% if sorted_speaker|length > 0 and rowcount != 2 %}
+{% if ((sorted_speakers|length) % 3) != 0  %}
     </div>
 {% endif %}
 

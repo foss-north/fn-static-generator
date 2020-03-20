@@ -11,8 +11,8 @@
     
 - name: "Gabriel Ku Wei Bin"
   short: "gkuweibin"
-  slot: slotX
-  day: none
+  slot: slot13
+  day: mar31
   lastname: "Ku"
   title: "REUSE: Making Free Software Licensing Easier For All"
   abstract:
@@ -62,8 +62,8 @@
     
 - name: "Adriaan de Groot"
   short: "adegroot"
-  slot: slotX
-  day: none
+  slot: slot14
+  day: mar31
   lastname: "Groot"
   title: "KDE Free Qt Foundation"
   abstract:
@@ -160,8 +160,8 @@
 
 - name: "Johan Linåker"
   short: "jlinaker"
-  slot: slotX
-  day: none
+  slot: slot17a
+  day: mar31
   lastname: "Linåker"
   title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
   abstract:
@@ -174,8 +174,8 @@
     - { name: "Jonas Södergren", short: "jsodergren" }
 - name: "Jonas Södergren"
   short: "jsodergren"
-  coslot: slotX
-  day: none
+  coslot: slot17a
+  day: mar31
   lastname: "Södergren"
   title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
   abstract:
@@ -187,8 +187,8 @@
       
 - name: "Elisabet Lobo-Vesga"
   short: "elobovesga"
-  slot: slotX
-  day: none
+  slot: slot11a
+  day: mar30
   lastname: "Logo-Vesga"
   title: "Privacy-preserving statistical analyses"
   abstract:
@@ -202,8 +202,8 @@
 
 - name: "Pavel Kopylov"
   short: "pkopylov"
-  slot: slotX
-  day: none
+  slot: slot15
+  day: mar31
   lastname: "Kopylov"
   title: "Hacking the legal code of an open source license"
   abstract:
