@@ -236,8 +236,8 @@
     
 - name: "Drew Fustini"
   short: "dfustini"
-  slot: slotX
-  day: none
+  slot: slot21
+  day: apr1
   lastname: "Fustini"
   title: "T.B.D."
   abstract:
