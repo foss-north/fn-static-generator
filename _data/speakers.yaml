@@ -49,8 +49,8 @@
     
 - name: "Viktor Petersson"
   short: "vpetersson"
-  slot: slotX
-  day: none
+  slot: slot20
+  day: apr1
   lastname: "Petersson"
   title: "The history of how Screenly OSE became the most popular digital signage project on GitHub"
   abstract:
