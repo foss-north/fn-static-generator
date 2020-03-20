@@ -34,3 +34,8 @@
   day: mar22
   title: "Linux on RISC-V"
 
+- name: "Anders Björklund"
+  short: abjorklund
+  slot: slot7
+  day: mar22
+  title: "Singularity container platform"
