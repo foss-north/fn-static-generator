@@ -244,3 +244,14 @@
     - "T.B.D."
   bio:
     - "T.B.D."
+
+- name: "Kristoffer Grönlund"
+  short: "kgronlund"
+  slot: slot4
+  day: mar29
+  lastname: "Grönlund"
+  title: "Introducing Rook"
+  abstract:
+    - "Ceph is a free software cluster storage solution that enables near-infinite scaling on commodity hardware, and Rook is a project that brings Ceph to Kubernetes as a storage provider, as well as other open source storage solutions. In this presentation I will do my best to introduce these technologies, talk a bit about what makes them unique and perhaps provide some motivation for when and why they may be relevant to you."
+  bio:
+    - "Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i Malmö i ett antal år växte intresset för fri mjukvara, och numera jobbar han på SUSE där han länge hackade på diverse High Availability-projekt och nu i huvudsak hackar på Ceph och Rook. Han är även en tredjedel av Kodsnack, en podcast om programmering och livet som utvecklare på svenska."
