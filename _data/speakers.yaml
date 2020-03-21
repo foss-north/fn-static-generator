@@ -24,8 +24,8 @@
     
 - name: "Chris Simmonds"
   short: "csimmonds"
-  slot: slotX
-  day: none
+  slot: slot19
+  day: apr1
   lastname: "Simmonds"
   title: "Debian or Yocto Project? Which is the best for your Embedded Linux project?"
   abstract:
