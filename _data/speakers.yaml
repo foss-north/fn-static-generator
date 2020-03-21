@@ -255,3 +255,15 @@
     - "Ceph is a free software cluster storage solution that enables near-infinite scaling on commodity hardware, and Rook is a project that brings Ceph to Kubernetes as a storage provider, as well as other open source storage solutions. In this presentation I will do my best to introduce these technologies, talk a bit about what makes them unique and perhaps provide some motivation for when and why they may be relevant to you."
   bio:
     - "Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i Malmö i ett antal år växte intresset för fri mjukvara, och numera jobbar han på SUSE där han länge hackade på diverse High Availability-projekt och nu i huvudsak hackar på Ceph och Rook. Han är även en tredjedel av Kodsnack, en podcast om programmering och livet som utvecklare på svenska."
+
+- name: "Bolaji Ayodeji"
+  short: bayodeji
+  slot: slot22
+  day: apr1
+  lastname: "Ayodeji"
+  title: "Effective Documentation: The Key to Open Source Growth"
+  abstract:
+    - "When developers use and contribute to open source projects, effective documentation can make all the difference between a positive experience or a negative experience. Providing effective documentation can build healthy and inclusive communities, thereby increasing the usability and retention rate of your product/ project, but most often, open source creators produce ineffective documentation."
+    - "In this talk, Bolaji will introduce you to unique documentation strategies that will enable you to create good, timely, useful, accurate and sustainable documentation alongside explaining the benefits of these strategies, and how you can build a documentation community around your contributors."
+  bio:
+    - "Bolaji is a Front-end Developer, GitHub Campus Expert, Open Source Advocate and Technical Writer who currently works in Developer Relations at Hashnode. He's passionate about Web VR experiences and developing JAMstack + PWA applications with a significant focus on accessibility alongside supporting and sustaining FOSS."
