@@ -1,7 +1,7 @@
 - name: "Frank Karlitschek"
   short: "fkarlitschek"
-  slot: slotX
-  day: none
+  slot: slot7
+  day: mar30
   lastname: "Karlitschek"
   title: "T.B.D."
   abstract:
@@ -74,8 +74,8 @@
 
 - name: "Gustav Grusell"
   short: "ggrusell"
-  slot: slotX
-  day: none
+  slot: slot16
+  day: mar31
   lastname: "Grusell"
   copresenters:
     - { name: "Olof Lindman", short: "olindman" }
@@ -88,8 +88,8 @@
 
 - name: "Olof Lindman"
   short: "olindman"
-  coslot: slotX
-  day: none
+  coslot: slot16
+  day: mar31
   lastname: "Lindman"
   title: "FOSS made us do it - How switching to open source tools enabled video innovation"
   abstract:
