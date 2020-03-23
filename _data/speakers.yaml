@@ -213,8 +213,8 @@
 
 - name: "Kamil Kaluzny"
   short: "kkaluzny"
-  slot: slotX
-  day: none
+  slot: slot17b
+  day: mar31
   lastname: "Kaluzny"
   title: "Robotic Process Automation based on OpenSource"
   abstract:
