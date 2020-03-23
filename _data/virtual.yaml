@@ -3,39 +3,61 @@
   slot: slot1
   day: mar22
   title: "Develop better software with usability testing"
+  links:
+    - { title: "Video", url: "https://youtu.be/LW4hxL7081o" }
+#    - { title: "Slides", url: "slides/" }
 
 - name: "Chris Simmonds"
   short: csimmonds
   slot: slot2
   day: mar22
   title: "Running Android on the Raspberry Pi"
+  links:
+    - { title: "Video", url: "https://youtu.be/cxztlKUCpbU" }
+    - { title: "Slides", url: "slides/android-rpi-csimmonds-foss-north-2020.pdf" }
 
 - name: "Ron Munitz"
   short: rmunitz
   slot: slot3
   day: mar22
   title: "The Yocto Project 10 minute quick-start guide"
+  links:
+    - { title: "Video", url: "https://youtu.be/jFMK7NCXEiw" }
+#    - { title: "Slides", url: "slides/" }
 
 - name: "Dimitris Platis"
   short: dplatis
   slot: slot4
   day: mar22
   title: "Getting started with your smart, connected, vehicle project"
+#  links:
+#    - { title: "Video", url: ""  }
+#    - { title: "Slides", url: "slides/" }
 
 - name: "Kristoffer Grönlund"
   short: kgronlund
   slot: slot5
   day: mar22
   title: "Seven years in Tibet^W^Wat Home"
+  links:
+#    - { title: "Video", url: "" }
+    - { title: "Slides", url: "slides/FOSS-North-Seven-Years-at-Home.pdf" }
 
 - name: "Drew Fustini"
   short: dfustini
   slot: slot6
   day: mar22
   title: "Linux on RISC-V"
+  links:
+#    - { title: "Video", url: "" }
+    - { title: "Slides", url: "https://github.com/pdp7/talks/blob/master/fossn20light.pdf" }
 
 - name: "Anders Björklund"
   short: abjorklund
   slot: slot7
   day: mar22
   title: "Singularity container platform"
+  links:
+#    - { title: "Video", url: "" }
+    - { title: "Slides", url: "slides/SingularityContainer.pdf" }
+      

@@ -34,7 +34,7 @@
 <table class="table table-striped">
 {% for talk in data.virtual|selectattr('day', 'equalto', 'mar22')|sort(attribute='slot') %}
     <tr><td>
-        <strong>{{ talk.title }}</strong> by <em>{{ talk.name }}</em></a>
+        <a href="speakers-and-talks.html#lt-{{ talk.short }}"><strong>{{ talk.title }}</strong> by <em>{{ talk.name }}</em></a></a>
     </td></tr>
 {% endfor %}
 </table>

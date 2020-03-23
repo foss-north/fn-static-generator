@@ -34,12 +34,34 @@
             </div>
             {% endfor %}
 
-            {% for biotext in speaker.bio %}
+	    {% for biotext in speaker.bio %}
             <div class="bio">
                 {{ biotext }}
             </div>
             {% endfor %}
         </div>
+    </div>
+{% endfor %}
+
+<h1>Lightning Talks</h1>
+
+{% for talk in data.virtual %}
+    <a name="lt-{{ talk.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+	<div class="col-md-12">
+	    <div class="name">{{ talk.name }}</div>
+	    <div class="title">{{ talk.title }} </div>
+	    <div class="link">
+		{% if talk.links is defined %}
+		    {% for link in talk.links %}
+		        <a href="{{ link.url }}">{{ link.title }}</a>
+			{% if not loop.last %}
+			    &nbsp;-&nbsp;
+			{% endif %}
+		    {% endfor %}
+		{% endif %}
+	    </div>
+	</div>
     </div>
 {% endfor %}
     
