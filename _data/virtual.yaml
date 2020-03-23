@@ -4,7 +4,8 @@
   day: mar22
   title: "Develop better software with usability testing"
   links:
-    - { title: "Video", url: "https://youtu.be/LW4hxL7081o" }
+    - { title: "YouTube", url: "https://youtu.be/LW4hxL7081o" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/442d17fa-ef4b-435c-942a-8fde956e52fc" }
 #    - { title: "Slides", url: "slides/" }
 
 - name: "Chris Simmonds"
@@ -13,7 +14,8 @@
   day: mar22
   title: "Running Android on the Raspberry Pi"
   links:
-    - { title: "Video", url: "https://youtu.be/cxztlKUCpbU" }
+    - { title: "YouTube", url: "https://youtu.be/cxztlKUCpbU" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/debbbcdb-f4d4-49ac-a0ed-13192b5cecfb" }
     - { title: "Slides", url: "slides/android-rpi-csimmonds-foss-north-2020.pdf" }
 
 - name: "Ron Munitz"
@@ -22,7 +24,8 @@
   day: mar22
   title: "The Yocto Project 10 minute quick-start guide"
   links:
-    - { title: "Video", url: "https://youtu.be/jFMK7NCXEiw" }
+    - { title: "YouTube", url: "https://youtu.be/jFMK7NCXEiw" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/4767436a-2d17-47ee-a78b-3bdb2dba35ad" }
 #    - { title: "Slides", url: "slides/" }
 
 - name: "Dimitris Platis"
