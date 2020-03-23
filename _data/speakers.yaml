@@ -100,8 +100,8 @@
     
 - name: "Valentin David"
   short: "vdavid"
-  slot: slotX
-  day: none
+  slot: slot9
+  day: mar30
   lastname: "David"
   title: "Building Open Container Initiative images based on Freedesktop SDK"
   abstract:
