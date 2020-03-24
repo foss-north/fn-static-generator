@@ -67,4 +67,5 @@
     - { title: "YouTube", url: "https://youtu.be/prPtItXskyg" }
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/9042b4c4-b3d9-4f17-b58d-9f0ec2bc0d36" }
     - { title: "Slides", url: "slides/SingularityContainer.pdf" }
+    - { title: "Demo at asciinema.org", url: "https://asciinema.org/a/CEYJNJTGgCBA3W3zE3H9DNst9" }
       
