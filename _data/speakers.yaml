@@ -211,16 +211,16 @@
   bio:
     - "Pavel is a business professional and educator assisting projects of various sizes aiming at maximising the value created by intangible assets. In most projects that Pavel works with the value is created from software based on numerous open source libraries."
 
-- name: "Kamil Kaluzny"
-  short: "kkaluzny"
+- name: "Ashley Raiteri"
+  short: "araiteri"
   slot: slot17b
   day: mar31
-  lastname: "Kaluzny"
+  lastname: "Raiteri"
   title: "Robotic Process Automation based on OpenSource"
   abstract:
     - "Robotic Process Automation based on OpenSource - the pros and cons of using OpenSource in RPA. "
   bio:
-    - "For 13 years he has been delivering, designing or managing projects and organizational units related to quality management, IT systems and business processes. The main areas of interest are monitoring systems, automation and robotics for corporate clients and government. Experienced in OpenSource and commercial enterprise software. Manager and IT engineer specializing in security of information and buildings. A graduate of the 7th edition of the Executive MBA at the Polish Academy of Sciences."
+    - "Strategy and Business Development Leader with 25+ years of professional experience as a developer, in addition, he has extensive managerial experience in providing advice for global companies on technology architecture, corporate strategy, branding, product management & revenue management."
 
 - name: "Jakob Bornecrantz"
   short: "jbornecrantz"
@@ -239,11 +239,14 @@
   slot: slot21
   day: apr1
   lastname: "Fustini"
-  title: "T.B.D."
+  title: "How to run Linux on RISC-V (with open hardware and open source FPGA tools)"
   abstract:
-    - "T.B.D."
+    - "Want to run Linux with RISC-V on Open Source Hardware?"
+    - "This talk will explore the current options including how open source FPGA tools can be leveraged to build open Linux-capable systems."
+    - "I will explain how myself and others at Hackaday Supercon teamed up to get Linux running on RISC-V core in the ECP5 FPGA badge using only open source tools thanks to Project Trellis, yosys and nextpnr. I will explain what migen and LiteX are, and how it enabled us to quickly build a System-on-Chip (SoC) capable of running Linux on VexRiscv."
+    - "In conclusion, I will explore the landscape of open source chip designprojects and the Linux-capable RISC-V silicon chips on horizon for 2020, and talk about my desire to collaborate on an affordable (<$100?) OSHW Linux RISC-V board."
   bio:
-    - "T.B.D."
+    - "Drew Fustini is a hardware designer and embedded Linux developer, from Chicago (USA), now living in Berlin. He designs open source hardware projects for OSH Park (an PCB manufacturing service), and maintains Adafruit Python libraries for the BeagleBone.  Drew volunteers on the board of directors of Open Source Hardware Association (OSHWA) and BeagleBoard.org Foundation   He organizes the Berlin Embedded Linux meetup and recently became a RISC-V Foundation ambassador."
 
 - name: "Kristoffer Grönlund"
   short: "kgronlund"
