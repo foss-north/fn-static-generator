@@ -77,20 +77,11 @@ div.talktitle {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
     font-weight: 800;
-    color: black;
 }
 
 div.talkspeaker {
     font-family: 'Roboto', sans-serif;
     font-size: 11pt;
-    color: black;
-}
-
-div.talkspeaker > a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 11pt;
-    color: black;
-    font-weight: 400;
 }
 
 td.scheduletime {
@@ -250,21 +241,16 @@ div.speakerrow {
 a.speakerfront,
 a.speakerfront:hover,
 a.speakerfront:focus {
-    color: #333333;
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
-    text-decoration: underline;
-    text-decoration-style: dotted;
 }
 
 a.projectlink,
 a.projectlink:hover,
 a.projectlink:focus {
-    color: #333333;
     font-family: 'Roboto', sans-serif;
     font-size: 24pt;
     text-decoration: underline;
-    text-decoration-style: dotted;
 }
 
 .speakergrid {
