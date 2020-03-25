@@ -3,11 +3,11 @@
   slot: slot7
   day: mar30
   lastname: "Karlitschek"
-  title: "T.B.D."
+  title: "Why the GPL is great for business"
   abstract:
-    - "T.B.D."
+    - "In the last few years we saw a lot of discussion in the open source and free software startup space around licenses. Several companies stepped forward and claimed that it’s not possible to build a working company on top of a free software product. Some changed the license of their product to proprietary license like the Commons Clause or the Business Source License. They claim that this is needed to ‘save’ free software. This talk describes why this is fundamentally wrong. It’s possible to build a working startup and company on top of a free software product. This talk discusses how companies like Red Hat, SUSE and Nextcloud manages to have a 100% free software product including a big contributor community but is still able to pay developers and grow."
   bio:
-    - "Founder of NextCloud"
+    - "Frank Karlitschek studied computer science at the University of Tübingen. He is a long time open source developer and former board member of the KDE e.V. In 2016 he founded Nextcloud to create a fully open source and decentralized alternative to big centralized US cloud companies. In 2012 he initiated the User Data Manifesto to define basic human rights regarding personal data. Frank was an invited expert at the W3C to help to create the ActivityPub internet standard. Frank has spoken at MIT, CERN, Harvard and ETH and keynoted several conferences. Frank is the founder and CEO of Nextcloud GmbH. He is also a fellow of Open Forum Europe and an advisor to the United Nations regarding Intellectual Property and Open Source."
     
 - name: "Gabriel Ku Wei Bin"
   short: "gkuweibin"
