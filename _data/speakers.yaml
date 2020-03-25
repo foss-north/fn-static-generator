@@ -281,3 +281,21 @@
     - "Today, every company is a software company. Even companies with a core business that is not about developing software products are building software to help run their businesses. More and more, development organizations are using open source software as part of their applications in order to support their agility and efficiency goals. While the benefits of using open source software are apparent, organizations need to manage the vulnerabilities and risks associated with that use. In this session you will learn about the business impact of security vulnerabilities and license compliance issues presented to organizations that use open source software. You will also learn how Software Composition Analysis tools, such as WhiteSource Software, can help to automate and simplify the process of managing vulnerability and compliance issues throughout the Software Delivery Lifecycle (SDLC). The session will include a hands-on workshop using WhiteSource Software to scan code for open source libraries, build an inventory of these libraries, and highlight identified security vulnerabilities, the licenses associated with these libraries, and the identified risk they present."
   bio:
     - "Jason Hammond is responsible for the technical enablement and support of WhiteSource's network of integration and go-to-market partners and their customers. He has more than 20 years of experience working in a variety of technical roles across the fields of information and network security, audit, and compliance. Jason is passionate about enabling businesses to adopt and expand the use of open source software in a secure, compliant, and scalable way."
+
+- name: "Simon Painter"
+  short: "spainter"
+  slot: slot8
+  day: mar30
+  lastname: "Painter"
+  title: "Functional Programming with JavaScript"
+  abstract:
+    - "Functional Programming is becoming increasingly popular and relevant with each year that goes by. With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?"
+    - "Using just a few JavaScript libraries, such as RamdaJS, developers can implement some of the most powerful patterns and techniques from the world of functional programming?"
+    - "This talk will demonstrate how, using ES6 and a few extra libraries, we can write Functional code that is:"
+    - "<ul><li>More robust</li><li>Easier to read</li><li>Easier to maintain</li></ul>"
+    - "This talk might be of interest to anyone looking into moving to a new platform, or in improving the scalability of an existing application, or even just interested in seeing what Functional Programming is all about, but all within the comfort of a familiar language."
+    - "We might even attempt the impossible, and explain what a Monad is!"
+  bio:
+    - "I've been working as a .NET developer for over 13 years now in a variety of industries including government, retail and manufacturing. But as a coder, I've been playing with making computers do whatever my crazed imagination could devise since I was old enough to read my Dad's copy of the ZX Spectrum BASIC coders manual."
+    - "I've been speaking about Functional C# at various user groups and conferences around the UK, USA, and India, and am particularly interested in seeing just how far we can push the capabilities of C#."
+    - "When I'm not coding, or running after my two small children, I have been known to enjoy the classic series of Doctor Who, Fighting Fantasy Gamebooks, Cryptic Crosswords, and rather more coffee than is probably good for me."
