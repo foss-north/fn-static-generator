@@ -271,6 +271,8 @@
   slot: slot21
   day: apr1
   lastname: "Fustini"
+  links:
+    - { title: "Slides", url: "https://github.com/pdp7/talks/blob/master/fossn20.pdf" }
   title: "How to run Linux on RISC-V (with open hardware and open source FPGA tools)"
   abstract:
     - "Want to run Linux with RISC-V on Open Source Hardware?"
