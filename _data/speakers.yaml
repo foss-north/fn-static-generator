@@ -17,6 +17,7 @@
   day: mar31
   lastname: "Ku"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7a99246b-7bad-4aa7-9387-30df2f337786" }
     - { title: "Slides", url: "slides/FSFE%20-%20FOSS%20North%20-%20REUSE%20and%20NGI.pdf" }
   title: "REUSE: Making Free Software Licensing Easier For All"
   abstract:
@@ -76,6 +77,8 @@
   slot: slot14
   day: mar31
   lastname: "Groot"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/5220fe13-7fdb-439b-a94b-813329a48cae" }
   title: "KDE Free Qt Foundation"
   abstract:
     - "The KDE Free Qt Foundation is a tool like a reverse Fiduciary License Agreement: it ensures that a Free Software project that is owned, controlled and enabled by a commercial entity cannot be turned into proprietary software. It was created in the early days of the KDE project to ensure that the Qt toolkit always remains Free Software."
@@ -91,6 +94,7 @@
   copresenters:
     - { name: "Olof Lindman", short: "olindman" }
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/751d41f4-72fd-4bfe-aa26-8d8b0e8054c2" }
     - { title: "Slides", url: "slides/Foss_made_us_do_it.pdf" }
   title: "FOSS made us do it - How switching to open source tools enabled video innovation"
   abstract:
@@ -105,6 +109,7 @@
   day: mar31
   lastname: "Lindman"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/751d41f4-72fd-4bfe-aa26-8d8b0e8054c2" }
     - { title: "Slides", url: "slides/Foss_made_us_do_it.pdf" }
   title: "FOSS made us do it - How switching to open source tools enabled video innovation"
   abstract:
@@ -133,6 +138,7 @@
   day: mar31
   lastname: "Platis"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/777ea64b-8466-48d7-a951-d7c9740b104e" }
     - { title: "Slides", url: "slides/Using%20open%20source%20paradigms%20to%20teach%20system%20development.pdf" }
   title: "Using open source paradigms to teach system development"
   abstract:
@@ -188,6 +194,7 @@
   day: mar31
   lastname: "Linåker"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7a9f3393-b824-45de-93ea-15dbe70eb258" }
     - { title: "Slides", url: "slides/Fossnorth-linaker.pdf" }
   title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
   abstract:
@@ -203,6 +210,9 @@
   coslot: slot17a
   day: mar31
   lastname: "Södergren"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7a9f3393-b824-45de-93ea-15dbe70eb258" }
+    - { title: "Slides", url: "slides/Fossnorth-linaker.pdf" }
   title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
   abstract:
     - "JobTech Dev is an initiative from the Swedish Public Employment Service where the goal is to create a common platform of open source software, data, and standards for private actors and citizens to build on. Envisioned outcomes include a higher variety of services and better matching for employers and job-seekers, as well as a lower barrier to entry for new job-matching service provides."
@@ -234,6 +244,7 @@
   day: mar31
   lastname: "Kopylov"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/a047d627-3867-46d6-8c15-93e14f765eac" }
     - { title: "Slides", url: "slides/20200331%20foss-north%20hacking%20the%20legal%20code%20of%20open%20source%20license.pdf" }
   title: "Hacking the legal code of an open source license"
   abstract:
@@ -247,6 +258,7 @@
   day: mar31
   lastname: "Raiteri"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/0afa9813-7b63-495f-81a0-863f30988aa8" }
     - { title: "Slides", url: "https://www.slideshare.net/ashr/make-it-right-open-source-and-automation" }
   title: "Robotic Process Automation based on OpenSource"
   abstract:
@@ -290,6 +302,7 @@
   title: "Introducing Rook"
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/04fdab44-c898-4d76-aafd-0ed9f338bd40" }
+    - { title: "YouTube", url: "https://youtu.be/1Fh_NB21_ME" }
   abstract:
     - "Ceph is a free software cluster storage solution that enables near-infinite scaling on commodity hardware, and Rook is a project that brings Ceph to Kubernetes as a storage provider, as well as other open source storage solutions. In this presentation I will do my best to introduce these technologies, talk a bit about what makes them unique and perhaps provide some motivation for when and why they may be relevant to you."
   bio:
