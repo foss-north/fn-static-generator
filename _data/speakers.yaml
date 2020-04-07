@@ -35,6 +35,7 @@
   lastname: "Simmonds"
   title: "Debian or Yocto Project? Which is the best for your Embedded Linux project?"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/d12841ff-60f8-4423-8c50-82428e495358" }
     - { title: "Slides", url: "https://tinyurl.com/u7glahp" }
   abstract:
     - "As you contemplate how to put together the system software for your next Embedded Linux project you will probably be wondering which is the best path to take? Use a Linux distro such as Debian, (or another of your choosing), or create a custom operating system using Yocto Project (or Open Embedded or Buildroot). At first sight, Debian looks easy, especially if you are using a Raspberry Pi, a BeagleBone or another board with a pre-installed Debian-derived system. So, why go to all the trouble of replacing it with Yocto?"
@@ -51,6 +52,7 @@
   title: "Understanding, Building and Researching Minimal (and not so minimal) Linux Systems"
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/94636bf4-0119-4223-811c-1a77f91443f3" }
+    - { title: "YouTube", url: "https://youtu.be/JtQu3sLMsWk" }
   abstract:
     - 'In this tutorial, we will give you the tools to build your Linux Distro, and give you the rational of the different components that make Linux. We will start with what happens when a device is powered on , tell a bit about some x86 and ARM bootloaders, and simplify (and unify) the procedures so that we concentrate on how the Linux Kernel is loaded, and what it needs in order to do something that is "useful" for most users/developers - such as loading the first userspace program, which may or may not load the next one, which may or may not...'
     - 'Once we have shown how to build and boot our minimal Linux distro (which we will build with an upstream kernel and busybox and run with KVM/QEMU), we will show some super simple yet extremely powerful debugging (and memory forensics...) tricks. We will show how to build and load a simple kernel module, as well as a simple executable. Once we saw how "complicated" it is, we will see how to do it with Yocto Project, and why it is needed :)'
@@ -63,6 +65,7 @@
   day: apr1
   lastname: "Petersson"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/027635e7-9a6e-441a-884e-412d0dd5683d" }
     - { title: "Slides", url: "https://speakerdeck.com/vpetersson/the-history-of-how-screenly-ose-became-the-most-popular-digital-signage-project-on-github" }
   title: "The history of how Screenly OSE became the most popular digital signage project on GitHub"
   abstract:
@@ -149,17 +152,6 @@
   bio:
     - "Dimitrios works at Edument in Gothenburg and calls himself a Software Engineer and a Maker. During the days he develops and delivers Edument's courses on C++ while hacking on embedded systems of all shapes and sizes as a consultant. Additionally, he is the course responsible for the DIT112 course at Gothenburg University, where Software Engineering BSc students learn about System Development."
     - "The evenings are all about creating open source projects and then blogging about them. Favorite fields revolve around IoT, robotics and handheld gadgets where he loves to build the entire product stack. Hardware-wise, this includes everything from the PCB to the physical case and, software, from the embedded firmware to the cloud."
-
-- name: "Francisco Blas Izquierdo Riera"
-  short: "friera"
-  slot: slotX
-  day: none
-  lastname: "Riera"
-  title: "Lessons learnt integrating hardware full disk encription"
-  abstract:
-    - 'We are at a stage on which most distributions can just use cryptsetup as a normal part of their boot process to decrypt an encrypted partition. But as you drift away from the usual "user enters password to decrypt single partition model", you keep finding more and more hurdles. In this talk I will talk about my experiences integrating full disk hardware encryption (with OPAL) without user interaction as a way to secure unattended systems against data theft. After this talk you will gain an understanding on what is OPAL and how it interacts with the usual boot process of Linux systems.'
-  bio:
-    - "Francisco has always had the curiosity inherent to hackers to take apart things to see how they worked and even fix them. He even learnt how to use MS-DOS with 7 years so he could play Commander Queen on his father’s computer. But, although things looked as if he was just going to be a computer programmer, after spending a summer reading Bruce Schneier’s applied cryptography and taking part, after lots of persuasion by the organizers, on a CTF competition where he wrote his own tools; things started escalating quickly. Since then Francisco has done things like participating in some CTFs, becoming a Gentoo Hardened developer, writing an Arduino bootloader able to cryptographically verify updates, contributed cryptographic code to the Haskell community, written a fast implementation of the TTH algorithm and championed the introduction of new standards in the ADC protocol. Having seen the world from different angles in his prior positions, currently, Francisco is working as a PhD. student at Chalmers with the Resilient IOT project whilst taking small consultant jobs on the side."
 
 - name: "Daniel Stenberg"
   short: "dstenberg"
@@ -284,6 +276,7 @@
   day: apr1
   lastname: "Fustini"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/913a5d58-36f6-41f2-b260-55259bee2981" }
     - { title: "Slides", url: "https://github.com/pdp7/talks/blob/master/fossn20.pdf" }
   title: "How to run Linux on RISC-V (with open hardware and open source FPGA tools)"
   abstract:
@@ -314,7 +307,8 @@
   day: apr1
   lastname: "Ayodeji"
   links:
-     - { title: "Slides", url: "https://slides.com/bolajiayodeji/effective-oss-docs" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/d3af37bd-9877-48af-931a-6d75bb7133bb" }
+    - { title: "Slides", url: "https://slides.com/bolajiayodeji/effective-oss-docs" }
   title: "Effective Documentation: The Key to Open Source Growth"
   abstract:
     - "When developers use and contribute to open source projects, effective documentation can make all the difference between a positive experience or a negative experience. Providing effective documentation can build healthy and inclusive communities, thereby increasing the usability and retention rate of your product/ project, but most often, open source creators produce ineffective documentation."
@@ -330,6 +324,7 @@
   day: apr1
   lastname: "hammond"
   links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/54276077-33df-4734-bc42-77a36beb3c90" }
     - { title: "Slides", url: "slides/Managing%20the%20risk%20and%20growth%20of%20using%20Open%20Source%20Software.pdf" }
   title: "Managing the risk and growth of using Open Source Software"
   abstract:
