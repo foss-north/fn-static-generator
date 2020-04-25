@@ -5,6 +5,7 @@
   lastname: "Karlitschek"
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/27544846-10ad-4afd-9c6c-bc3b05129e06" }
+    - { title: "YouTube", url: "https://youtu.be/k2IDDcT3tdg" }
   title: "Why the GPL is great for business"
   abstract:
     - "In the last few years we saw a lot of discussion in the open source and free software startup space around licenses. Several companies stepped forward and claimed that it’s not possible to build a working company on top of a free software product. Some changed the license of their product to proprietary license like the Commons Clause or the Business Source License. They claim that this is needed to ‘save’ free software. This talk describes why this is fundamentally wrong. It’s possible to build a working startup and company on top of a free software product. This talk discusses how companies like Red Hat, SUSE and Nextcloud manages to have a 100% free software product including a big contributor community but is still able to pay developers and grow."
@@ -263,6 +264,9 @@
   slot: slot5
   day: mar29
   lastname: "Bornecrantz"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7fa35ed2-01c4-4453-afa6-707e964bc0b9" }
+    - { title: "YouTube", url: "https://youtu.be/diErduBn1tU" }
   title: "FOSS Virtual & Augmented Reality"
   abstract:
     - "In this talk will cover Monado and Khronos' OpenXR standard, and give an overview about the current state of open source VR and what lies ahead. Also go into some details of how tracking is done inside of Monado and show of the current state."
@@ -339,6 +343,7 @@
   lastname: "Painter"
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/a39af8a4-8026-4ceb-baa8-18951caff715" }
+    - { title: "YouTube", url: "https://youtu.be/mLSNxtFPVlg" }
   title: "Functional Programming with JavaScript"
   abstract:
     - "Functional Programming is becoming increasingly popular and relevant with each year that goes by. With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?"
