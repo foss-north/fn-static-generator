@@ -1,12 +1,12 @@
-{% extends "covid-19-page.html" %}
+{% extends "page.html" %}
 
 {% block bodycontents %}
 
 <h1>Tickets</h1>
 
-<p>Get your ticket via the <a href="https://foss-north.se/events/2020/register/">ticket registration</a> page (requires the setup of an account).</p>
+<p>Get your ticket via the <a href="https://foss-north.se/events/{{ data.general.confbaseurl }}/register/">ticket registration</a> page (requires the setup of an account).</p>
 
-<p>Tickets bought before March 15 include lunch and coffee. Tickets are still sold until the day before the event, but does not include catering. We have ordered more food than we’ve sold tickets on March 15, so we hope to be able to provide food to all participants, but we cannot guarantee this due to lead times ordering supplies.</p>
+<p>Tickets bought before {{ data.general.ticketslunchdate }} include lunch and coffee. Tickets are still sold until the day before the event, but does not include catering. We have ordered more food than we’ve sold tickets on {{ data.general.ticketslunchdate }}, so we hope to be able to provide food to all participants, but we cannot guarantee this due to lead times ordering supplies.</p>
 
 <p>Tickets are sold in the following three categories:</p>
 
